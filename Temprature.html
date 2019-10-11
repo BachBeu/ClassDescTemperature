@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Xây dựng lớp temprature</title>
+</head>
+<body>
+<script>
+    function Temperature(c) {
+        this.c = c;
+    }
+    function convert(c) {
+        var f = c * 1.8 + 32;
+        var k = c + 273.15;
+        alert("Nhiệt độ F là: " + f + " Nhiệt độ Kevin là: " + k);
+    }
+    convert(25);
+</script>
+</body>
+</html>
